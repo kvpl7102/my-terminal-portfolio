@@ -39,8 +39,7 @@ const Projects: React.FC = () => {
   ) : (
     <div data-testid="projects">
       <ProjectsIntro>
-        “Talk is cheap. Show me the code”? I got you. <br />
-        Here are some of my projects you shouldn't misss
+        Here are some of tiny things I've done so far!
       </ProjectsIntro>
       {projects.map(({ id, title, desc }) => (
         <ProjectContainer key={id}>
@@ -58,6 +57,7 @@ const projects = [
     id: 1,
     title: "My Terminal Portfolio",
     desc: "A terminal-based portfolio built with React, TypeScript, and Styled Components.",
+    url: ""
   }
 ];
 

@@ -1,6 +1,5 @@
 import {
   AboutWrapper,
-  HighlightAlt,
   HighlightSpan,
 } from "../styles/About.styled";
 
@@ -8,20 +7,21 @@ const About: React.FC = () => {
   return (
     <AboutWrapper data-testid="about">
       <p>
-        Hi, my name is <HighlightSpan>Sat Naing</HighlightSpan>!
+        Hi, my name is <HighlightSpan>Vi Phung</HighlightSpan>!
       </p>
       <p>
-        I'm <HighlightAlt>a full-stack developer</HighlightAlt> based in Yangon,
-        Myanmar.
+        Currently based in Montreal, Quebec, Canada, I have a strong foundation
+        in backend development and data processing.
       </p>
       <p>
-        I am passionate about writing codes and <br />
-        developing web applications to solve real-life challenges.
+        I enjoy coding to solve real-world problems,
+        and I’m always eager to learn and collaborate. 
+        I’m seeking junior roles in software or data development 
+        where I can grow and contribute meaningfully
       </p>
+
     </AboutWrapper>
   );
 };
 
 export default About;
-// This component displays a brief introduction about the developer, Sat Naing.
-// It includes a greeting, a brief description of his profession, and his passion for coding and
