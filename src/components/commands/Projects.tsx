@@ -57,7 +57,19 @@ const projects = [
     id: 1,
     title: "My Terminal Portfolio",
     desc: "A terminal-based portfolio built with React, TypeScript, and Styled Components.",
-    url: ""
+    url: "https://my-terminal-portfolio-alpha.vercel.app/"
+  },
+  {
+    id: 2,
+    title: "NLP Document Search Engine with Bigram Prediction",
+    desc: "A Java-based natural language processing system that implements intelligent document search and word prediction capabilities.",
+    url: "https://github.com/kvpl7102/nlp-document-search"
+  },
+  {
+    id: 3,
+    title: "Fullstack AI Chatbot",
+    desc: "A fullstack AI chatbot application similar to ChatGPT using OpenAI API",
+    url: "https://github.com/kvpl7102/chatgpt-clone-app"
   }
 ];
 
